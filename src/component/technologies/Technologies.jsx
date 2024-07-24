@@ -7,7 +7,7 @@ export default function Technologies() {
     };
     return (
         <div>
-            <div className='text-center pb-3 pt-5 technologis-back'>
+            <div className='text-center py-5 technologis-back'>
                 <h2 className='fw-semibold'>Technologies</h2>
                 <div className='home-box-div'></div>
             </div>
