@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Our_work() {
+    useEffect(() => {
+        AOS.init({});
+    }, []);
     return (
         <div>
             <div className='my-5'>
@@ -11,7 +16,7 @@ export default function Our_work() {
 
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-lg-4 col-md-6 mt-3'>
+                        <div className='col-lg-4 col-md-6 mt-3' data-aos="zoom-in" data-aos-duration="2000">
                             <div className='our-work-head'>
                                 <h3 className='fs-1'>01</h3>
                             </div>
@@ -24,7 +29,7 @@ export default function Our_work() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-lg-4 col-md-6 mt-3'>
+                        <div className='col-lg-4 col-md-6 mt-3' data-aos="zoom-in" data-aos-duration="2000">
                             <div className='our-work-head'>
                                 <h3 className='fs-1'>02</h3>
                             </div>
@@ -37,7 +42,7 @@ export default function Our_work() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-lg-4 col-md-6 mt-3'>
+                        <div className='col-lg-4 col-md-6 mt-3' data-aos="zoom-in" data-aos-duration="3000">
                             <div className='our-work-head'>
                                 <h3 className='fs-1'>03</h3>
                             </div>
