@@ -75,8 +75,8 @@
   }
 
   30% {
-    font-size: 60px;
-    letter-spacing: 19px;
+    font-size: 55px;
+    letter-spacing: 15px;
     /* margin-bottom: -40px; */
   }
 
@@ -376,6 +376,7 @@
 .technologis-back {
   background: url('../public/image/banner-6.jpg') no-repeat;
   background-size: cover;
+  min-height: 150px;
 }
 
 .techno-name {
