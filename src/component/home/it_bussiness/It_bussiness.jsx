@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function It_bussiness() {
+    useEffect(() => {
+        AOS.init({});
+    }, []);
     return (
         <div>
             <div className='my-5 py-5'>
@@ -17,7 +22,7 @@ export default function It_bussiness() {
                         <div className='col-lg-8'>
                             <div className='row'>
                                 <div className='col-lg-6 mt-3'>
-                                    <div className='it-bussiness-cate'>
+                                    <div className='it-bussiness-cate' data-aos="fade-up" data-aos-duration="2000">
                                         <div className='d-flex align-items-center px-4 py-4 rounded'>
                                             <div className='me-3'>
                                                 <img src="/image/h1-icon.png" alt="h1-icon" className='it-bussiness-ic' />
@@ -30,7 +35,7 @@ export default function It_bussiness() {
                                     </div>
                                 </div>
                                 <div className='col-lg-6 mt-3'>
-                                    <div className='it-bussiness-cate'>
+                                    <div className='it-bussiness-cate' data-aos="fade-up" data-aos-duration="2000">
                                         <div className='d-flex align-items-center px-4 py-4 rounded'>
                                             <div className='me-3'>
                                                 <img src="/image/h2-icon.png" alt="h2-icon" className='it-bussiness-ic' />
@@ -43,7 +48,7 @@ export default function It_bussiness() {
                                     </div>
                                 </div>
                                 <div className='col-lg-6 mt-3'>
-                                    <div className='it-bussiness-cate'>
+                                    <div className='it-bussiness-cate' data-aos="fade-up" data-aos-duration="2000">
                                         <div className='d-flex align-items-center px-4 py-4 rounded'>
                                             <div className='me-3'>
                                                 <img src="/image/h3-icon.png" alt="h3-icon" className='it-bussiness-ic' />
@@ -57,7 +62,7 @@ export default function It_bussiness() {
                                 </div>
 
                                 <div className='col-lg-6 mt-3'>
-                                    <div className='it-bussiness-cate'>
+                                    <div className='it-bussiness-cate' data-aos="fade-up" data-aos-duration="2000">
                                         <div className='d-flex align-items-center px-4 py-4 rounded'>
                                             <div className='me-3'>
                                                 <img src="/image/h4-icon.png" alt="h4-icon" className='it-bussiness-ic' />
