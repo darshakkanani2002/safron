@@ -17,21 +17,21 @@ export default function Technologies() {
                         <h2 className='techno-heading'>{activeTab}</h2>
                     </div>
 
-                    <div className='col-lg-3 mb-lg-0 mb-4'>
+                    <div className='col-lg-3'>
                         <div className='techno-name px-3 py-3'>
-                            <div className="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                <div className="nav-link techno-link py-3 active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true" onClick={() => handleTabClick('Android')}> <span><i className="fa-solid fa-angles-right"></i></span> Android</div>
-                                <div className="nav-link techno-link py-3" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false" onClick={() => handleTabClick('iOS')}><span><i className="fa-solid fa-angles-right"></i></span> iOS</div>
-                                <div className="nav-link techno-link py-3" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false" onClick={() => handleTabClick('React Native')}><span><i className="fa-solid fa-angles-right"></i></span> React Native</div>
-                                <div className="nav-link techno-link py-3" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false" onClick={() => handleTabClick('Anguler.js')}><span><i className="fa-solid fa-angles-right"></i></span> Anguler.js</div>
-                                <div className="nav-link techno-link py-3" id="v-pills-react-tab" data-bs-toggle="pill" data-bs-target="#v-pills-react" type="button" role="tab" aria-controls="v-pills-react" aria-selected="false" onClick={() => handleTabClick('React.js')}><span><i className="fa-solid fa-angles-right"></i></span> React.js</div>
+                            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <div class="nav-link techno-link py-3 active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true" onClick={() => handleTabClick('Android')}> <span><i class="fa-solid fa-angles-right"></i></span> Android</div>
+                                <div class="nav-link techno-link py-3" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false" onClick={() => handleTabClick('iOS')}><span><i class="fa-solid fa-angles-right"></i></span> iOS</div>
+                                <div class="nav-link techno-link py-3" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false" onClick={() => handleTabClick('React Native')}><span><i class="fa-solid fa-angles-right"></i></span> React Native</div>
+                                <div class="nav-link techno-link py-3" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false" onClick={() => handleTabClick('Anguler.js')}><span><i class="fa-solid fa-angles-right"></i></span> Anguler.js</div>
+                                <div class="nav-link techno-link py-3" id="v-pills-react-tab" data-bs-toggle="pill" data-bs-target="#v-pills-react" type="button" role="tab" aria-controls="v-pills-react" aria-selected="false" onClick={() => handleTabClick('React.js')}><span><i class="fa-solid fa-angles-right"></i></span> React.js</div>
                             </div>
                         </div>
                     </div>
 
                     <div className='col-lg-9'>
-                        <div className="tab-content" id="v-pills-tabContent">
-                            <div className="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
                                 <div className='mb-5'>
                                     <img src="/image/tech-anroid.png" alt="tech-anroid" className='img-fluid w-100' />
                                 </div>
@@ -49,7 +49,7 @@ export default function Technologies() {
                                     </p>
                                 </div>
                             </div>
-                            <div className="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
                                 <div className='mb-5'>
                                     <img src="/image/tech_ios.jpg" alt="tech_ios" className='img-fluid w-100' />
                                 </div>
@@ -67,7 +67,7 @@ export default function Technologies() {
                                     </p> */}
                                 </div>
                             </div>
-                            <div className="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
                                 <div className='mb-5'>
                                     <img src="/image/tech_react_native.jpg" alt="tech_react_native" className='img-fluid w-100' />
                                 </div>
@@ -85,7 +85,7 @@ export default function Technologies() {
                                     </p> */}
                                 </div>
                             </div>
-                            <div className="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
                                 <div className='mb-5'>
                                     <img src="/image/tech_angular.png" alt="tech_angular" className='img-fluid w-100' />
                                 </div>
@@ -103,7 +103,7 @@ export default function Technologies() {
                                 </div>
                             </div>
 
-                            <div className="tab-pane fade" id="v-pills-react" role="tabpanel" aria-labelledby="v-pills-react-tab" tabindex="0">
+                            <div class="tab-pane fade" id="v-pills-react" role="tabpanel" aria-labelledby="v-pills-react-tab" tabindex="0">
                                 <div className='mb-5'>
                                     <img src="/image/tech_reactjs.png" alt="tech_reactjs" className='img-fluid w-100' />
                                 </div>
