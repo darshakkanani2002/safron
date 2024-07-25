@@ -4,13 +4,13 @@ import Iframe from 'react-iframe'
 export default function Contact() {
     return (
         <div>
-            <div className='text-center mb-3 mt-5'>
+            <div className='text-center py-5 technologis-back'>
                 <h2 className='fw-semibold'>Contact <span style={{ color: '#56c6c9' }}> Us</span></h2>
                 <div className='home-box-div'></div>
             </div>
 
             <div className="container">
-                <div className='row'>
+                <div className='row mt-5'>
                     <div className='col-lg-4 mt-4'>
                         <div className='contact-div px-3 py-5'>
                             <div className='text-center'>

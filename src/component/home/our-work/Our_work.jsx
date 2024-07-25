@@ -4,7 +4,7 @@ export default function Our_work() {
     return (
         <div>
             <div className='my-5'>
-                <div className='text-center mb-3'>
+                <div className='text-center mb-3    '>
                     <h2 className='fw-semibold'>Our  <span style={{ color: '#56c6c9' }}>Works Process</span></h2>
                     <div className='home-box-div'></div>
                 </div>

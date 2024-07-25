@@ -7,7 +7,7 @@ export default function Footer() {
                 <section className='bg-light'>
                     <div className='container py-5'>
                         <div className='row'>
-                            <div className='col-lg-4'>
+                            <div className='col-lg-3 col-12'>
                                 <a class="navbar-brand safron-logo" href="#">
                                     <span>SAFRON</span>
                                     <p className='mb-0 text-start'>INFOTECH</p>
@@ -19,7 +19,7 @@ export default function Footer() {
                                 </div>
                             </div>
 
-                            <div className='col-lg-2'>
+                            <div className='col-lg-2 col-md-6 col-12'>
                                 <h3 className='fw-bold'>Our Links</h3>
                                 <div className='footer-product-div mt-4'></div>
                                 <p className='ps-4 footer-latest-pro fw-semibold'>Terms & conditions</p>
@@ -29,20 +29,23 @@ export default function Footer() {
                                 <p className='ps-4 footer-latest-pro fw-semibold'>Contact Us</p>
                             </div>
 
-                            <div className='col-lg-3'>
-                                <h3 className='fw-bold'>More Solution</h3>
-                                <div className='footer-product-div-2 mt-4'></div>
-                                <p className='ps-4 footer-latest-pro fw-semibold'>Payment Gateway Integration</p>
-                                <p className='ps-4 footer-latest-pro fw-semibold'>Web Development(Azure)</p>
-                                <p className='ps-4 footer-latest-pro fw-semibold'>Mobile Application Development</p>
-
+                            <div className='col-lg-4 col-md-6 col-12'>
+                                <div className='d-flex justify-content-lg-center justify-content-start'>
+                                    <div>
+                                        <h3 className='fw-bold'>More Solution</h3>
+                                        <div className='footer-product-div-2 mt-4'></div>
+                                        <p className='ps-4 footer-latest-pro fw-semibold'>Payment Gateway Integration</p>
+                                        <p className='ps-4 footer-latest-pro fw-semibold'>Web Development(Azure)</p>
+                                        <p className='ps-4 footer-latest-pro fw-semibold'>Mobile Application Development</p>
+                                    </div>
+                                </div>
                             </div>
 
-                            <div className='col-lg-3 '>
+                            <div className='col-lg-3 col-12'>
                                 <h3 className='fw-bold'>Get In Touch</h3>
                                 <ul className='mt-4 footer-popular-product-div p-4' style={{ width: "85%" }}>
-                                    <h6 ><i class="fa-solid fa-circle-dot"></i><strong>Mon-Sat :</strong> 9:30 AM to 6:30 PM</h6>
-                                    <h6 className='mt-4'><i class="fa-solid fa-circle-dot"></i> <strong>Sunday :</strong> Closed</h6>
+                                    <h6 ><i className="fa-solid fa-circle-dot"></i><strong>Mon-Sat :</strong> 9:30 AM to 6:30 PM</h6>
+                                    <h6 className='mt-4'><i className="fa-solid fa-circle-dot"></i> <strong>Sunday :</strong> Closed</h6>
                                 </ul>
                             </div>
                         </div>

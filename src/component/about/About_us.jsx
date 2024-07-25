@@ -1,14 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function About_us() {
+    useEffect(() => {
+        AOS.init({});
+    }, []);
     return (
         <div>
-            <div className='text-center mb-5 mt-5'>
-                <h2 className='fw-semibold'>About <span style={{ color: '#56c6c9' }}> Us</span></h2>
+            <div className='text-center py-5 technologis-back'>
+                <h2 className='fw-semibold' data-aos="zoom-in" data-aos-duration="1000">About <span style={{ color: '#56c6c9' }}> Us</span></h2>
                 <div className='home-box-div'></div>
             </div>
             <div className='container'>
-                <div className='row'>
+                <div className='row mt-5'>
                     <div className='col-lg-8'>
                         <div>
                             <h2 className='h1 fw-semibold'>Connecting things, It’s all about Safron Infotech.</h2>
@@ -38,7 +43,7 @@ export default function About_us() {
                         </div>
                     </div>
                     <div className='col-lg-4'>
-                        <img src="/image/ab-1.png" alt="ab-1" className='img-fluid' />
+                        <img src="/image/ab-1.png" alt="ab-1" className='img-fluid w-100' />
                     </div>
                 </div>
             </div>
@@ -46,7 +51,7 @@ export default function About_us() {
             <div className='container'>
                 <div className='row align-items-center'>
                     <div className="col-12">
-                        <div className='text-center mb-5 mt-5'>
+                        <div className='text-center mb-5 mt-5 technologis-back py-4'>
                             <h2 className='fw-semibold'>Our <span style={{ color: '#56c6c9' }}> Mission</span></h2>
                             <div className='home-box-div text-start'></div>
                         </div>
@@ -71,7 +76,7 @@ export default function About_us() {
             <div className='container'>
                 <div className='row align-items-center'>
                     <div className="col-12">
-                        <div className='text-center mb-5 mt-5'>
+                        <div className='text-center mb-5 mt-5 technologis-back py-4' >
                             <h2 className='fw-semibold'>Our <span style={{ color: '#56c6c9' }}> Vision</span></h2>
                             <div className='home-box-div text-start'></div>
                         </div>
