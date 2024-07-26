@@ -3,7 +3,10 @@ import React from 'react'
 export default function Footer() {
     return (
         <div>
-            <footer className='mt-5'>
+            <footer className='mt-5 footer-animation'>
+                <div id='stars'></div>
+                <div id='stars2'></div>
+                <div id='stars3'></div>
                 <section className='bg-light footer-back'>
                     <div className='container py-5'>
                         <div className='row'>
@@ -29,10 +32,10 @@ export default function Footer() {
                             <div className='col-lg-2 col-md-6 col-12 m-width-50'>
                                 <h3 className='fw-bold'>Our Links</h3>
                                 <ul className='footer-product-div mt-4 list-unstyled'>
-                                    <li className='ps-4 footer-latest-pro fw-semibold mb-2'>Terms & conditions</li>
-                                    <li className='ps-4 footer-latest-pro fw-semibold mb-2'>FAQ's</li>
-                                    <li className='ps-4 footer-latest-pro fw-semibold mb-2'>Privacy Policy</li>
-                                    <li className='ps-4 footer-latest-pro fw-semibold mb-2'>About Us</li>
+                                    <li className='ps-4 footer-latest-pro fw-semibold mb-3'>Terms & conditions</li>
+                                    <li className='ps-4 footer-latest-pro fw-semibold mb-3'>FAQ's</li>
+                                    <li className='ps-4 footer-latest-pro fw-semibold mb-3'>Privacy Policy</li>
+                                    <li className='ps-4 footer-latest-pro fw-semibold mb-3'>About Us</li>
                                     <li className='ps-4 footer-latest-pro fw-semibold'>Contact Us</li>
                                 </ul>
                             </div>
@@ -42,9 +45,9 @@ export default function Footer() {
                                     <div>
                                         <h3 className='fw-bold'>More Solution</h3>
                                         <ul className='footer-product-div-2 mt-4 list-unstyled'>
-                                            <li className='ps-4 footer-latest-pro fw-semibold mb-2'>Payment Gateway Integration</li>
-                                            <li className='ps-4 footer-latest-pro fw-semibold mb-2'>Web Development(Azure)</li>
-                                            <li className='ps-4 footer-latest-pro fw-semibold mb-2'>Mobile Application Development</li>
+                                            <li className='ps-4 footer-latest-pro fw-semibold mb-3'>Payment Gateway Integration</li>
+                                            <li className='ps-4 footer-latest-pro fw-semibold mb-3'>Web Development(Azure)</li>
+                                            <li className='ps-4 footer-latest-pro fw-semibold mb-3'>Mobile Application Development</li>
                                         </ul>
                                     </div>
                                 </div>
