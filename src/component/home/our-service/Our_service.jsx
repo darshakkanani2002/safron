@@ -14,9 +14,9 @@ export default function Our_service() {
                     <div className='home-box-div'></div>
                 </div>
 
-                <div className='container'>
+                <div className='container overflow-hidden'>
                     <div className='row'>
-                        <div className='col-lg-4 mt-4' data-aos="flip-left" data-aos-duration="2000">
+                        <div className='col-lg-4 mt-4' data-aos="flip-left" data-aos-duration="1000">
                             <div className='our-service-ic'>
                                 <img src="/image/h1-icon.png" alt="h1-icon" className='it-bussiness-ic' />
                             </div>
@@ -29,7 +29,7 @@ export default function Our_service() {
                             </div>
                         </div>
 
-                        <div className='col-lg-4 mt-4' data-aos="flip-left" data-aos-duration="2000">
+                        <div className='col-lg-4 mt-4' data-aos="flip-left" data-aos-duration="1000">
                             <div className='our-service-ic'>
                                 <img src="/image/api-intigration.png" alt="api-intigration" className='it-bussiness-ic' />
                             </div>
@@ -43,7 +43,7 @@ export default function Our_service() {
                             </div>
                         </div>
 
-                        <div className='col-lg-4 mt-4' data-aos="flip-left" data-aos-duration="2000">
+                        <div className='col-lg-4 mt-4' data-aos="flip-left" data-aos-duration="1000">
                             <div className='our-service-ic'>
                                 <img src="/image/h3-icon.png" alt="h3-icon" className='it-bussiness-ic' />
                             </div>
