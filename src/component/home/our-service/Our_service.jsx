@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Our_service() {
+    useEffect(() => {
+        AOS.init({});
+    }, []);
     return (
         <div>
             <div className='my-5'>
@@ -11,7 +16,7 @@ export default function Our_service() {
 
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-lg-4 mt-4'>
+                        <div className='col-lg-4 mt-4' data-aos="flip-left" data-aos-duration="2000">
                             <div className='our-service-ic'>
                                 <img src="/image/h1-icon.png" alt="h1-icon" className='it-bussiness-ic' />
                             </div>
@@ -24,7 +29,7 @@ export default function Our_service() {
                             </div>
                         </div>
 
-                        <div className='col-lg-4 mt-4'>
+                        <div className='col-lg-4 mt-4' data-aos="flip-left" data-aos-duration="2000">
                             <div className='our-service-ic'>
                                 <img src="/image/api-intigration.png" alt="api-intigration" className='it-bussiness-ic' />
                             </div>
@@ -38,7 +43,7 @@ export default function Our_service() {
                             </div>
                         </div>
 
-                        <div className='col-lg-4 mt-4'>
+                        <div className='col-lg-4 mt-4' data-aos="flip-left" data-aos-duration="2000">
                             <div className='our-service-ic'>
                                 <img src="/image/h3-icon.png" alt="h3-icon" className='it-bussiness-ic' />
                             </div>

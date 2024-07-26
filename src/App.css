@@ -69,19 +69,19 @@
 
 /* hero section css */
 .hero-bg-1 {
-  background: url('../public//image/banner-2.jpg') no-repeat;
+  background: url('/image/banner-2.jpg') no-repeat;
   background-size: cover;
   min-height: 712px;
 }
 
 .hero-bg-2 {
-  background: url('../public//image/banner-3.jpg') no-repeat;
+  background: url('/image/banner-3.jpg') no-repeat;
   background-size: cover;
   min-height: 712px;
 }
 
 .hero-bg-3 {
-  background: url('../public//image/banner-4.jpg') no-repeat;
+  background: url('/image/banner-4.jpg') no-repeat;
   background-size: cover;
   min-height: 712px;
 }
@@ -346,6 +346,15 @@
 
 /* Footer Css */
 
+.footer-back {
+  background-color: #191919 !important;
+  color: #fff;
+}
+
+.footer-back h3 {
+  color: #56c6c9;
+}
+
 .footer-product-div {
   position: relative;
 }
@@ -390,7 +399,7 @@
 
 .footer-popular-product-div {
   background-color: #fff;
-  box-shadow: 0px 0px 10px 5px #bbbbbb;
+  box-shadow: 0px 0px 6px 3px #bbbbbb;
   border-radius: 8px;
 }
 
@@ -400,7 +409,11 @@
 }
 
 .footer-last-section-div {
-  border: 1px solid #0698d6;
+  border: 1px solid #56c6c9;
+}
+
+.footer-rights-back {
+  background-color: #191919;
 }
 
 /* contact us page css */
@@ -487,4 +500,16 @@
 .nav-pills .show>.nav-link {
   color: var(--bs-nav-pills-link-active-color);
   background-color: #56c6c9 !important;
+}
+
+
+/* media query for adjust width */
+@media screen and (min-width:992px) and (max-width:1200px) {
+  .m-width-50 {
+    width: 50%;
+  }
+
+  .m-width-100 {
+    width: 100%;
+  }
 }

@@ -9,7 +9,7 @@ export default function Our_work() {
     return (
         <div>
             <div className='my-5'>
-                <div className='text-center mb-3    '>
+                <div className='text-center mb-3'>
                     <h2 className='fw-semibold'>Our  <span style={{ color: '#56c6c9' }}>Works Process</span></h2>
                     <div className='home-box-div'></div>
                 </div>
@@ -42,7 +42,7 @@ export default function Our_work() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-lg-4 col-md-6 mt-3' data-aos="zoom-in" data-aos-duration="3000">
+                        <div className='col-lg-4 col-md-6 mt-3' data-aos="zoom-in" data-aos-duration="2000">
                             <div className='our-work-head'>
                                 <h3 className='fs-1'>03</h3>
                             </div>

@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Iframe from 'react-iframe'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Contact() {
+    useEffect(() => {
+        AOS.init({});
+    }, []);
     return (
         <div>
             <div className='text-center py-5 technologis-back'>
@@ -11,7 +16,7 @@ export default function Contact() {
 
             <div className="container">
                 <div className='row mt-5'>
-                    <div className='col-lg-4 mt-4'>
+                    <div className='col-lg-4 mt-4' data-aos="zoom-in" data-aos-duration="2000">
                         <div className='contact-div px-3 py-5'>
                             <div className='text-center'>
                                 <i class="fa-solid fa-location-dot contact-icon"></i>
@@ -22,7 +27,7 @@ export default function Contact() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-4 mt-4'>
+                    <div className='col-lg-4 mt-4' data-aos="zoom-in" data-aos-duration="2000">
                         <div className='contact-div px-3 py-5'>
                             <div className='text-center'>
                                 <i class="fa-solid fa-phone contact-icon"></i>
@@ -34,7 +39,7 @@ export default function Contact() {
                         </div>
                     </div>
 
-                    <div className='col-lg-4 mt-4'>
+                    <div className='col-lg-4 mt-4' data-aos="zoom-in" data-aos-duration="2000">
                         <div className='contact-div px-3 py-5'>
                             <div className='text-center'>
                                 <i class="fa-solid fa-envelope contact-icon"></i>
