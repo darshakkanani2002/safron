@@ -24,8 +24,9 @@ export default function Our_service() {
                             <div className='our-service-descroiption px-4 py-5'>
                                 <h4 className='text-center fw-semibold'>WEBSITE DEVELOPMENT</h4>
                                 <p>Web development is the building and maintenance of websites. We are here to give your business a great looking online presence. We are a team with an expertise a creative solutions and stunning results.</p>
-
-                                <button className='our-service-see-more-btn'>See More</button>
+                                <div className='text-center'>
+                                    <button className='our-service-see-more-btn'>See More</button>
+                                </div>
                             </div>
                         </div>
 
@@ -39,7 +40,9 @@ export default function Our_service() {
                                 <p>API integration can be defined as the process of creating a means for two or more APIs to share data and communicate with each other without human interruption.
                                 </p>
 
-                                <button className='our-service-see-more-btn'>See More</button>
+                                <div className='text-center'>
+                                    <button className='our-service-see-more-btn'>See More</button>
+                                </div>
                             </div>
                         </div>
 
@@ -52,7 +55,9 @@ export default function Our_service() {
                                 <h4 className='text-center fw-semibold'>APP DEVELOPMENT</h4>
                                 <p>Mobile application development is the process of creating apps that run on any mobile platform: Android and iOS Do you wish to “Go Mobile” to expand your business? Being the mobile app development company.</p>
 
-                                <button className='our-service-see-more-btn'>See More</button>
+                                <div className='text-center'>
+                                    <button className='our-service-see-more-btn'>See More</button>
+                                </div>
                             </div>
                         </div>
                     </div>

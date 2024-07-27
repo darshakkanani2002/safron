@@ -17,12 +17,12 @@ export default function Footer() {
                                 </a>
                                 <div className='mt-4'>
                                     <p className='fs-6'>
-                                        We are fast growing integrated and ISO 9001-2008 certified Pharmaceutical bulk drugs [API] , pharmamedicine and Intermediates exporting company.
+                                        Safron Infotech focus on high quality, timely delivery, client satisfaction, and cost-effective development services to our clients.
                                     </p>
                                 </div>
                                 <div>
                                     <ul className='list-unstyled d-flex'>
-                                        <li className='mx-2'><a href="#"><i class="fa-brands fa-whatsapp footer-icon"></i></a></li>
+                                        <li className='mx-2'><a href="https://wa.me/7984351224" target='_blank'><i class="fa-brands fa-whatsapp footer-icon"></i></a></li>
                                         <li className='mx-2'><a href="#"><i class="fa-brands fa-twitter footer-icon"></i></a></li>
                                         <li className='mx-2'><a href="#"><i class="fa-brands fa-instagram footer-icon"></i></a></li>
                                     </ul>
