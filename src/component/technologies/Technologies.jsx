@@ -21,7 +21,7 @@ export default function Technologies() {
                         <div className='techno-name px-3 py-3'>
                             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                                 <div class="nav-link techno-link py-3 active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true" onClick={() => handleTabClick('Android')}> <span><i class="fa-solid fa-angles-right"></i></span> Android</div>
-                                <div class="nav-link techno-link py-3" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false" onClick={() => handleTabClick('iOS')}><span><i class="fa-solid fa-angles-right"></i></span> iOS</div>
+                                <div class="nav-link techno-link py-3" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false" onClick={() => handleTabClick('Unity')}><span><i class="fa-solid fa-angles-right"></i></span> Unity</div>
                                 <div class="nav-link techno-link py-3" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false" onClick={() => handleTabClick('React Native')}><span><i class="fa-solid fa-angles-right"></i></span> React Native</div>
                                 <div class="nav-link techno-link py-3" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false" onClick={() => handleTabClick('Anguler.js')}><span><i class="fa-solid fa-angles-right"></i></span> Anguler.js</div>
                                 <div class="nav-link techno-link py-3" id="v-pills-react-tab" data-bs-toggle="pill" data-bs-target="#v-pills-react" type="button" role="tab" aria-controls="v-pills-react" aria-selected="false" onClick={() => handleTabClick('React.js')}><span><i class="fa-solid fa-angles-right"></i></span> React.js</div>
@@ -49,6 +49,7 @@ export default function Technologies() {
                                     </p>
                                 </div>
                             </div>
+
                             <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
                                 <div className='mb-5'>
                                     <img src="/image/tech_ios.jpg" alt="tech_ios" className='img-fluid w-100' />

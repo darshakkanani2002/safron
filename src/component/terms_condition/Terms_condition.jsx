@@ -43,6 +43,10 @@ export default function Terms_condition() {
                                         shall mean the website operated by the Company and having the following url - https://www.izonnet.com/
                                     </p>
                                 </div>
+
+                                <div>
+                                    Use of Services
+                                </div>
                             </div>
                         </div>
                     </div>
