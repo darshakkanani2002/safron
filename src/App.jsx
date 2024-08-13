@@ -9,6 +9,7 @@ import About_us from './component/about/About_us'
 import Technologies from './component/technologies/Technologies'
 import Services from './component/services/Services'
 import Terms_condition from './component/terms_condition/Terms_condition'
+import Faq from './component/faq/Faq'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
           <Route path='/contact' element={<Contact></Contact>}></Route>
           <Route path='/services' element={<Services></Services>}></Route>
           <Route path='/term' element={<Terms_condition></Terms_condition>}></Route>
+          <Route path='/faq' element={<Faq></Faq>}></Route>
         </Routes>
         <Footer></Footer>
       </Router>

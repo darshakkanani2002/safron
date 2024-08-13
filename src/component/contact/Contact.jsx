@@ -23,7 +23,7 @@ export default function Contact() {
                             </div>
                             <div className='text-center contact-info'>
                                 <h2 className='fw-semibold pt-3'>WE ARE HERE</h2>
-                                <a href="#">B-105, Shivalik Plaza Near Kapodra Bridge Uttran, surat, Gujarat</a>
+                                <a href="https://maps.app.goo.gl/pPASPNzmABFd6HGr9" target='_blank'>B-105, Shivalik Plaza Near Kapodra Bridge Uttran, surat, Gujarat</a>
                             </div>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ export default function Contact() {
                             </div>
                             <div className='text-center contact-info'>
                                 <h2 className='fw-semibold pt-3'>CALL US</h2>
-                                <a href="https://wa.me/7984351224"><strong>Contact No :-</strong> 7984351224</a>
+                                <a href="https://wa.me/7984351224" target='_blank'><strong>Contact No :-</strong> 7984351224</a>
                             </div>
                         </div>
                     </div>
@@ -46,7 +46,7 @@ export default function Contact() {
                             </div>
                             <div className='text-center contact-info'>
                                 <h2 className='fw-semibold pt-3'>Mail US</h2>
-                                <a href="mailto:info.safronh@gmail.com">info.safron@gmail.com</a>
+                                <a href="mailto:info.safronh@gmail.com" target='_blank'>info.safron@gmail.com</a>
                             </div>
                         </div>
                     </div>
