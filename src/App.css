@@ -291,6 +291,10 @@
   border-radius: 12px;
 }
 
+.game-development-ic {
+  filter: brightness(0) saturate(100%) invert(77%) sepia(79%) saturate(325%) hue-rotate(130deg) brightness(83%) contrast(88%);
+}
+
 /* our service css */
 .our-service-ic {
   position: relative;
@@ -505,6 +509,11 @@
   background-color: #191919;
 }
 
+.footer-product-div li a:hover {
+  color: #56c6c9 !important;
+  transition: 0.3s !important;
+}
+
 /* contact us page css */
 .contact-div {
   background-color: #fff;
@@ -605,4 +614,14 @@
   .m-width-100 {
     width: 100%;
   }
+}
+
+/* trems and condition */
+.terms_condition h4 {
+  color: #56c6c9;
+  font-weight: 600;
+}
+
+.terms_condition p {
+  font-size: 17px;
 }

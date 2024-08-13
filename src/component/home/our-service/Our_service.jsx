@@ -32,12 +32,12 @@ export default function Our_service() {
 
                         <div className='col-lg-4 mt-4' data-aos="flip-left" data-aos-duration="1000">
                             <div className='our-service-ic'>
-                                <img src="/image/api-intigration.png" alt="api-intigration" className='it-bussiness-ic' />
+                                <img src="/image/game-development.png" alt="api-intigration" className='it-bussiness-ic game-development-ic' />
                             </div>
                             <div className='our-service-line'></div>
                             <div className='our-service-descroiption px-4 py-5'>
-                                <h4 className='text-center fw-semibold'>API INTEGRATION</h4>
-                                <p>API integration can be defined as the process of creating a means for two or more APIs to share data and communicate with each other without human interruption.
+                                <h4 className='text-center fw-semibold'>GAME DEVELOPMENT</h4>
+                                <p>A newly started game development company focuses on creating immersive, innovative, and engaging gaming experiences across multiple platforms.
                                 </p>
 
                                 <div className='text-center'>

@@ -25,10 +25,10 @@ export default function It_bussiness() {
                                     <div className='it-bussiness-cate' data-aos="fade-up" data-aos-duration="2000">
                                         <div className='d-flex align-items-center px-4 py-4 rounded'>
                                             <div className='me-3'>
-                                                <img src="/image/h1-icon.png" alt="h1-icon" className='it-bussiness-ic' />
+                                                <img src="/image/h3-icon.png" alt="h3-icon" className='it-bussiness-ic' />
                                             </div>
                                             <div>
-                                                <h4 className='mb-0 fw-semibold'>IT Consultancy</h4>
+                                                <h4 className='mb-0 fw-semibold'>App Development</h4>
                                                 <p className='mb-0'>Faster & Smarter Solutions</p>
                                             </div>
                                         </div>
@@ -47,14 +47,16 @@ export default function It_bussiness() {
                                         </div>
                                     </div>
                                 </div>
+
+
                                 <div className='col-lg-6 mt-3'>
                                     <div className='it-bussiness-cate' data-aos="fade-up" data-aos-duration="2000">
                                         <div className='d-flex align-items-center px-4 py-4 rounded'>
                                             <div className='me-3'>
-                                                <img src="/image/h3-icon.png" alt="h3-icon" className='it-bussiness-ic' />
+                                                <img src="/image/h4-icon.png" alt="h4-icon" className='it-bussiness-ic' />
                                             </div>
                                             <div>
-                                                <h4 className='mb-0 fw-semibold'>App Development</h4>
+                                                <h4 className='mb-0 fw-semibold'>Web Development</h4>
                                                 <p className='mb-0'>Faster & Smarter Solutions</p>
                                             </div>
                                         </div>
@@ -65,10 +67,10 @@ export default function It_bussiness() {
                                     <div className='it-bussiness-cate' data-aos="fade-up" data-aos-duration="2000">
                                         <div className='d-flex align-items-center px-4 py-4 rounded'>
                                             <div className='me-3'>
-                                                <img src="/image/h4-icon.png" alt="h4-icon" className='it-bussiness-ic' />
+                                                <img src="/image/game-development.png" alt="game-development" className='it-bussiness-ic game-development-ic' />
                                             </div>
                                             <div>
-                                                <h4 className='mb-0 fw-semibold'>Web Development</h4>
+                                                <h4 className='mb-0 fw-semibold'>Game Development</h4>
                                                 <p className='mb-0'>Faster & Smarter Solutions</p>
                                             </div>
                                         </div>

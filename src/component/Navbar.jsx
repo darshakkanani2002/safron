@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg bg-white">
             <div className="container">
                 <Link className="navbar-brand safron-logo" to="#">
-                    <span>SAFRON</span>
+                    <span>AADHYA</span>
                     <p className='mb-0'>INFOTECH</p>
                 </Link>
 

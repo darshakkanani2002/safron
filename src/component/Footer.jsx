@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
     return (
@@ -12,12 +13,12 @@ export default function Footer() {
                         <div className='row'>
                             <div className='col-lg-3 col-12 m-width-100'>
                                 <a class="navbar-brand safron-logo" href="#">
-                                    <span>SAFRON</span>
+                                    <span>AADHYA</span>
                                     <p className='mb-0 text-start text-white'>INFOTECH</p>
                                 </a>
                                 <div className='mt-4'>
                                     <p className='fs-6'>
-                                        Safron Infotech focus on high quality, timely delivery, client satisfaction, and cost-effective development services to our clients.
+                                        Ad Infotech focus on high quality, timely delivery, client satisfaction, and cost-effective development services to our clients.
                                     </p>
                                 </div>
                                 <div>
@@ -32,11 +33,11 @@ export default function Footer() {
                             <div className='col-lg-2 col-md-6 col-12 m-width-50'>
                                 <h3 className='fw-bold'>Our Links</h3>
                                 <ul className='footer-product-div mt-4 list-unstyled'>
-                                    <li className='ps-4 footer-latest-pro fw-semibold mb-3'>Terms & conditions</li>
-                                    <li className='ps-4 footer-latest-pro fw-semibold mb-3'>FAQ's</li>
-                                    <li className='ps-4 footer-latest-pro fw-semibold mb-3'>Privacy Policy</li>
-                                    <li className='ps-4 footer-latest-pro fw-semibold mb-3'>About Us</li>
-                                    <li className='ps-4 footer-latest-pro fw-semibold'>Contact Us</li>
+                                    <li className='ps-4 footer-latest-pro  mb-3'><Link to='/term' className='fw-semibold text-decoration-none text-white'>Terms & conditions</Link></li>
+                                    <li className='ps-4 footer-latest-pro fw-semibold mb-3'><Link className='fw-semibold text-decoration-none text-white'>FAQ's</Link></li>
+                                    <li className='ps-4 footer-latest-pro fw-semibold mb-3'><Link className='fw-semibold text-decoration-none text-white'>Privacy Policy</Link></li>
+                                    <li className='ps-4 footer-latest-pro fw-semibold mb-3'><Link className='fw-semibold text-decoration-none text-white'>About Us</Link></li>
+                                    <li className='ps-4 footer-latest-pro fw-semibold'><Link className='fw-semibold text-decoration-none text-white'>Contact Us</Link></li>
                                 </ul>
                             </div>
 

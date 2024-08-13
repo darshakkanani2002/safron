@@ -30,7 +30,7 @@ export default function Hero() {
                     <div className='position-relative hero-img-margin hero-bg-1'>
                         <div className='hero-bg-overlay'>
                             <div className='text-center' >
-                                <h2 className='text1 animate__animated animate__flipInX' >Welcome to <br></br>SARFON INFOTECH</h2>
+                                <h2 className='text1 animate__animated animate__flipInX' >Welcome to <br></br>AADHYA INFOTECH</h2>
                                 <h5 className='text2'>User Experiences Through Responsive Design and Optimized <br className='d-lg-block d-md-block' /> Performance for a Seamless Web Presence.</h5>
                             </div>
                         </div>
