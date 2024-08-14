@@ -33,11 +33,11 @@ export default function Footer() {
                             <div className='col-lg-2 col-md-6 col-12 m-width-50'>
                                 <h3 className='fw-bold'>Our Links</h3>
                                 <ul className='footer-product-div mt-4 list-unstyled'>
-                                    <li className='ps-4 footer-latest-pro  mb-3'><Link to='/term' className='fw-semibold text-decoration-none text-white'>Terms & conditions</Link></li>
-                                    <li className='ps-4 footer-latest-pro fw-semibold mb-3'><Link to='/faq' className='fw-semibold text-decoration-none text-white'>FAQ's</Link></li>
-                                    <li className='ps-4 footer-latest-pro fw-semibold mb-3'><Link className='fw-semibold text-decoration-none text-white'>Privacy Policy</Link></li>
-                                    <li className='ps-4 footer-latest-pro fw-semibold mb-3'><Link className='fw-semibold text-decoration-none text-white'>About Us</Link></li>
-                                    <li className='ps-4 footer-latest-pro fw-semibold'><Link className='fw-semibold text-decoration-none text-white'>Contact Us</Link></li>
+                                    <li className='ps-4 footer-latest-pro  mb-3'><Link to='/term' target='_top' className='fw-semibold text-decoration-none text-white'>Terms & conditions</Link></li>
+                                    <li className='ps-4 footer-latest-pro fw-semibold mb-3'><Link to='/faq' target='_top' className='fw-semibold text-decoration-none text-white'>FAQ's</Link></li>
+                                    <li className='ps-4 footer-latest-pro fw-semibold mb-3'><Link to='/privacypolicy' target='_top' className='fw-semibold text-decoration-none text-white'>Privacy Policy</Link></li>
+                                    <li className='ps-4 footer-latest-pro fw-semibold mb-3'><Link to='/about' target='_top' className='fw-semibold text-decoration-none text-white'>About Us</Link></li>
+                                    <li className='ps-4 footer-latest-pro fw-semibold'><Link to='/contact' target='_top' className='fw-semibold text-decoration-none text-white'>Contact Us</Link></li>
                                 </ul>
                             </div>
 

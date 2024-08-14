@@ -10,7 +10,7 @@ export default function Faq() {
 
             <div className='container'>
                 <div className='row'>
-                    <div className='col-12 my-5'>
+                    <div className='col-12 mt-5'>
                         <div className="accordion" id="accordionExample">
                             <div className="accordion-item border rounded-0 my-3">
                                 <h2 className="accordion-header">

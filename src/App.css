@@ -553,6 +553,46 @@
   font-size: 19px;
 }
 
+.about-image-animation {
+  background-color: #bfeff124;
+  animation: zoom-out 2s ease-in-out infinite alternate-reverse both;
+  border-radius: 8px;
+}
+
+.about-our-sec {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 9px 5px #d8d8d8;
+  min-height: 295px;
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+  .about-our-sec {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 5px #d8d8d8;
+    min-height: 308px;
+  }
+}
+
+.about-our-image {
+  height: 90px;
+  width: 90px;
+}
+
+.about-our-text h3 {
+  color: #56c6c9;
+  font-weight: 600;
+}
+
+@keyframes zoom-out {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.1);
+  }
+}
+
 /* technologies page css */
 .techno-heading {
   border-bottom: 4px solid #56c6c9;
@@ -626,6 +666,7 @@
 .terms_condition h4 {
   color: #56c6c9;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .terms_condition p {
@@ -652,4 +693,10 @@
   transform: var(--bs-accordion-btn-icon-transform);
   filter: brightness(0) saturate(100%) invert(99%) sepia(100%) saturate(0%) hue-rotate(330deg) brightness(103%) contrast(102%);
   filter: brightness(0) saturate(100%) invert(99%) sepia(100%) saturate(0%) hue-rotate(330deg) brightness(103%) contrast(102%);
+}
+
+/* privacy and policy page css */
+.privacy-icon {
+  color: #56c6c9;
+  font-size: 18px;
 }

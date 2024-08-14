@@ -10,6 +10,7 @@ import Technologies from './component/technologies/Technologies'
 import Services from './component/services/Services'
 import Terms_condition from './component/terms_condition/Terms_condition'
 import Faq from './component/faq/Faq'
+import Privacy_policy from './component/privacy_policy/Privacy_policy'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
           <Route path='/services' element={<Services></Services>}></Route>
           <Route path='/term' element={<Terms_condition></Terms_condition>}></Route>
           <Route path='/faq' element={<Faq></Faq>}></Route>
+          <Route path='/privacypolicy' element={<Privacy_policy></Privacy_policy>}></Route>
         </Routes>
         <Footer></Footer>
       </Router>
