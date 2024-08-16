@@ -291,8 +291,12 @@
   border-radius: 12px;
 }
 
-.game-development-ic {
+/* .game-development-ic {
   filter: brightness(0) saturate(100%) invert(77%) sepia(79%) saturate(325%) hue-rotate(130deg) brightness(83%) contrast(88%);
+} */
+.about-page-img {
+  width: 80px;
+  height: auto;
 }
 
 /* our service css */
@@ -540,6 +544,15 @@
 }
 
 /* About us page css */
+.about-hero-bg {
+  background: url('../public/image//abou-hero-bg.png') no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+.about-first-sec-text {
+  color: #56c6c9;
+}
 
 .about-us-category li {
   font-size: 20px;
@@ -554,9 +567,19 @@
 }
 
 .about-image-animation {
-  background-color: #bfeff124;
+  /* background-color: #bfeff124; */
   animation: zoom-out 2s ease-in-out infinite alternate-reverse both;
-  border-radius: 8px;
+  /* border-radius: 8px; */
+}
+
+@keyframes zoom-out {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.1);
+  }
 }
 
 .about-our-sec {
@@ -573,6 +596,26 @@
   }
 }
 
+.about-why-choose-img {
+  animation: down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes down {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.why-choose-us-text {
+  color: #56c6c9;
+  font-size: 32px;
+  font-weight: 700;
+}
+
 .about-our-image {
   height: 90px;
   width: 90px;
@@ -583,15 +626,7 @@
   font-weight: 600;
 }
 
-@keyframes zoom-out {
-  0% {
-    transform: scale(1);
-  }
 
-  100% {
-    transform: scale(1.1);
-  }
-}
 
 /* technologies page css */
 .techno-heading {

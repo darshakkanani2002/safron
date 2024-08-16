@@ -17,7 +17,7 @@ export default function About_us() {
                     <div className='row mt-5 align-items-center'>
                         <div className='col-lg-7'>
                             <div>
-                                <h2 className='h1 fw-semibold'>Connecting things, It’s all about Safron Infotech.</h2>
+                                <h2 className='h1 fw-semibold about-first-sec-text'> It’s all about Aadhya Infotech.</h2>
                                 <p className='fs-5 fw-semibold'>Our IT services converge business and the technology experts to help to manage business processes of all categories.</p>
                                 <div className='row'>
                                     <div className='col-lg-6'>
@@ -126,6 +126,71 @@ export default function About_us() {
                                 <h6>
                                     Our Vision is to be a leading IT development with reliable, innovative and customer friendly service provider in IT sector.
                                 </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Why Choose Us sections */}
+            <div className='container mt-5'>
+                <div className='row align-items-center'>
+                    <div className='col-lg-4'>
+                        <img src="/image/about-why-choose.jpg" alt="about-why-choose" className='img-fluid about-why-choose-img' />
+                    </div>
+                    <div className='col-lg-8'>
+                        <div>
+                            <h2 className='why-choose-us-text'>Why Choose Us</h2>
+
+                            <div>
+                                <div className='row'>
+                                    <div className='col-lg-6 my-3'>
+                                        <div className='d-flex'>
+                                            <div>
+                                                <img src="/image/people_group.png" alt="people_group" className='about-page-img' />
+                                            </div>
+                                            <div className='px-2'>
+                                                <h5>Experienced Team</h5>
+                                                <p>Our team of skilled .NET developers boasts years of experience and a deep understanding of the framework's capabilities.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='col-lg-6 my-3'>
+                                        <div className='d-flex'>
+                                            <div>
+                                                <img src="/image/ui-ux-design.png" alt="ui-ux-design" className='about-page-img' />
+                                            </div>
+                                            <div className='px-2'>
+                                                <h5>Ui Ux Design</h5>
+                                                <p>Our team of skilled .NET developers boasts years of experience and a deep understanding of the framework's capabilities.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='col-lg-6 my-3'>
+                                        <div className='d-flex'>
+                                            <div>
+                                                <img src="/image/app-development.png" alt="app-development" className='about-page-img' />
+                                            </div>
+                                            <div className='px-2'>
+                                                <h5>App Development</h5>
+                                                <p>Our team of skilled .NET developers boasts years of experience and a deep understanding of the framework's capabilities.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className='col-lg-6 my-3'>
+                                        <div className='d-flex'>
+                                            <div>
+                                                <img src="/image/web-delopment.png" alt="web-delopment" className='about-page-img' />
+                                            </div>
+                                            <div className='px-2'>
+                                                <h5>Web Development</h5>
+                                                <p>Our team of skilled .NET developers boasts years of experience and a deep understanding of the framework's capabilities.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
