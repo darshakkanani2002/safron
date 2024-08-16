@@ -25,7 +25,7 @@ export default function It_bussiness() {
                                     <div className='it-bussiness-cate' data-aos="fade-up" data-aos-duration="2000">
                                         <div className='d-flex align-items-center px-4 py-4 rounded'>
                                             <div className='me-3'>
-                                                <img src="/image/h3-icon.png" alt="h3-icon" className='it-bussiness-ic' />
+                                                <img src="/image/app-development.png" alt="app-development" className='it-bussiness-ic' />
                                             </div>
                                             <div>
                                                 <h4 className='mb-0 fw-semibold'>App Development</h4>
@@ -38,7 +38,7 @@ export default function It_bussiness() {
                                     <div className='it-bussiness-cate' data-aos="fade-up" data-aos-duration="2000">
                                         <div className='d-flex align-items-center px-4 py-4 rounded'>
                                             <div className='me-3'>
-                                                <img src="/image/h2-icon.png" alt="h2-icon" className='it-bussiness-ic' />
+                                                <img src="/image/ui-ux-design.png" alt="h2-icon" className='it-bussiness-ic' />
                                             </div>
                                             <div>
                                                 <h4 className='mb-0 fw-semibold'>UX/UI Strategy</h4>
@@ -53,7 +53,7 @@ export default function It_bussiness() {
                                     <div className='it-bussiness-cate' data-aos="fade-up" data-aos-duration="2000">
                                         <div className='d-flex align-items-center px-4 py-4 rounded'>
                                             <div className='me-3'>
-                                                <img src="/image/h4-icon.png" alt="h4-icon" className='it-bussiness-ic' />
+                                                <img src="/image/web-delopment.png" alt="web-delopment" className='it-bussiness-ic' />
                                             </div>
                                             <div>
                                                 <h4 className='mb-0 fw-semibold'>Web Development</h4>

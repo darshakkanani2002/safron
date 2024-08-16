@@ -18,7 +18,7 @@ export default function Our_service() {
                     <div className='row'>
                         <div className='col-lg-4 mt-4' data-aos="flip-left" data-aos-duration="1000">
                             <div className='our-service-ic'>
-                                <img src="/image/h1-icon.png" alt="h1-icon" className='it-bussiness-ic' />
+                                <img src="/image/website-development.png" alt="website-development" className='it-bussiness-ic' />
                             </div>
                             <div className='our-service-line'></div>
                             <div className='our-service-descroiption px-4 py-5'>
@@ -48,7 +48,7 @@ export default function Our_service() {
 
                         <div className='col-lg-4 mt-4' data-aos="flip-left" data-aos-duration="1000">
                             <div className='our-service-ic'>
-                                <img src="/image/h3-icon.png" alt="h3-icon" className='it-bussiness-ic' />
+                                <img src="/image/app-development.png" alt="app-development" className='it-bussiness-ic' />
                             </div>
                             <div className='our-service-line'></div>
                             <div className='our-service-descroiption px-4 py-5'>

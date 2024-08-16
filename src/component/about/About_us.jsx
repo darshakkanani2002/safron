@@ -14,7 +14,7 @@ export default function About_us() {
             </div>
             <div className='about-hero-bg'>
                 <div className='container'>
-                    <div className='row mt-5 align-items-center'>
+                    <div className='row align-items-center'>
                         <div className='col-lg-7'>
                             <div>
                                 <h2 className='h1 fw-semibold about-first-sec-text'> It’s all about Aadhya Infotech.</h2>
